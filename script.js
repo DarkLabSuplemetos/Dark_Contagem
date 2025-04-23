@@ -1,5 +1,5 @@
 const anoAtual = new Date().getFullYear();
-const targetDate = new Date(anoAtual, 3, 24, 0, 0, 0); // Abril = mês 3
+const targetDate = new Date(anoAtual, 3, 24, 12, 0, 0); // Abril = mês 3
 
 function updateCountdown() {
   const now = new Date();
